@@ -1,0 +1,14 @@
+[package]
+name = "rocket-exercise"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+rocket = {version = "0.5.1", features = ["json"]}
+serde = { version = "1.0", features = ["derive"] }
+ws = { package = "rocket_ws", version = "0.1.1" }
+
+[dependencies.rocket_db_pools]
+version = "0"
+features = ["sqlx_mysql"]

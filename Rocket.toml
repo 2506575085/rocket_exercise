@@ -1,0 +1,2 @@
+[default.databases.platform_logs]
+url = "mysql://root:1Asdfghjklz@localhost:3306/platform"
